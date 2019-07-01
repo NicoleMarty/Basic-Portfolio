@@ -164,49 +164,31 @@ tr#message td {
     text-align: center;
 }
 
-.row-one {
-    float: left;
-}
-
-#project-one {
+.wrapper {
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-#project-two {
-    float: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.row-two {
+#content {
     float: left;
 }
 
-#project-three {
-    float: left;
-    padding-bottom: 20px;
+#picture {
+    position: relative;
 }
 
-#project-four {
-    float: left;
-    padding-bottom: 20px;
-}
-
-.row-three {
-    float: left;
-}
-
-#project-five {
-    float: left;
-    padding-bottom: 20px;
+#heading {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 300px;
+    text-align: center;
 }
 
 .footer {
     background-color: #666666;
     color: #ffffff;
-    clear: both;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
