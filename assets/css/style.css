@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0px;
     background-color: #e6e3e3;
@@ -185,6 +189,10 @@ tr#message td {
 }
 
 .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 190px;
     background-color: #666666;
     color: #ffffff;
     text-align: center;
