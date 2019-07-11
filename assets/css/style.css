@@ -221,6 +221,9 @@ input[type=submit] {
 /* Media Queries */
 
 @media screen and (max-width: 640px) {
+    body {
+        margin: 0px;
+    }
     h1,
     h2,
     h3,
@@ -247,6 +250,7 @@ input[type=submit] {
         text-align: center;
         border-bottom: 1px solid #cccccc;
         width: 100%;
+        background-color: #ffffff;
     }
     #logo {
         width: 95.5vw;
