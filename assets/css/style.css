@@ -343,6 +343,13 @@ input[type=submit] {
     .work:nth-child(even) {
         margin-right: 35px;
     }
+    /* Contact Media */
+    #contact-form {
+        width: 100%;
+    }
+    ul {
+        padding-left: 0px;
+    }
 }
 
 @media screen and (max-width: 980px) {}
