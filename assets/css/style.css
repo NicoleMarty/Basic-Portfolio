@@ -3,6 +3,8 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
+    background: url("../images/subtle-background.jpg");
+    margin: 0px;
 }
 
 * {
@@ -58,6 +60,7 @@ h3 {
     overflow: auto;
     color: #ffffff;
     border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
 }
 
 #logo {
