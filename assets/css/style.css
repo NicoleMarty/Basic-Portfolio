@@ -312,7 +312,7 @@ input[type=submit] {
         margin: 0px;
     }
     #main-container {
-        padding: 120px 40px 90px 40px;
+        padding: 120px 0px 90px 40px;
     }
     .main-section {
         padding-top: 10px;
@@ -333,6 +333,15 @@ input[type=submit] {
     }
     .footer {
         position: fixed;
+    }
+    /* Portfolio Media */
+    #main-container {
+        width: 95vw;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .work:nth-child(even) {
+        margin-right: 35px;
     }
 }
 
