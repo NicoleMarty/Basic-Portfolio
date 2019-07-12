@@ -1,4 +1,4 @@
-body {
+    body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 18px;
     line-height: 34px;
@@ -281,6 +281,10 @@ input[type=submit] {
         width: 100%;
         padding-bottom: 20px;
     }
+    .footer {
+        width: 100%;
+    }
+    /* portfolio media */
     .work:nth-child(even) {
         margin-top: 0px;
         margin-bottom: 20px;
@@ -288,13 +292,7 @@ input[type=submit] {
     .work {
         margin-top: 0px;
         width: 100%;
+        /* contact media */
     }
-    .footer {
-        width: 100%;
-        vertical-align: middle;
-    }
-}
-
-@media screen and (max-width: 768px) {}
-
-@media screen and (max-width: 980px) {}
+    @media screen and (max-width: 768px) {}
+    @media screen and (max-width: 980px) {}
