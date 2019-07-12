@@ -399,4 +399,11 @@ input[type=submit] {
     .footer {
         position: fixed;
     }
+    /* Contact Media */
+    #contact-form {
+        width: 100%;
+    }
+    ul {
+        padding-left: 0px;
+    }
 }
