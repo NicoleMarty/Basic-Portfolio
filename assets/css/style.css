@@ -253,7 +253,7 @@ input[type=submit] {
         background-color: #ffffff;
     }
     #logo {
-        width: 95.5vw;
+        width: 100vw;
         line-height: 70px;
         font-size: 25px;
         height: 70px;
@@ -281,7 +281,20 @@ input[type=submit] {
         width: 100%;
         padding-bottom: 20px;
     }
-    .footer {
+    .work:nth-child(even) {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .work {
+        margin-top: 0px;
         width: 100%;
     }
+    .footer {
+        width: 100%;
+        vertical-align: middle;
+    }
 }
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 980px) {}
