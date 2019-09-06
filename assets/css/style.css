@@ -1,5 +1,7 @@
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'bebas-neue', 'sans-serif';
+    font-style: normal;
+    font-weight: 400;
     font-size: 18px;
     line-height: 34px;
     color: #777777;
@@ -33,7 +35,9 @@ P:last-child {
 h1,
 h2,
 h3 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'bebas-neue', 'sans-serif';
+    font-style: normal;
+    font-size: 18px;
     font-weight: 700;
     color: #171a29;
 }
@@ -67,7 +71,8 @@ h3 {
     float: left;
     width: 250px;
     height: 90px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'bebas-neue', 'sans-serif';
+    font-style: normal;
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
